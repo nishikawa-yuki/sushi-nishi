@@ -1,0 +1,55 @@
+.p-card {
+    &--01 {
+        width: calc((100% - 60px) / 3);
+        box-shadow: 0 0 8px 4px #ccc;
+
+        @include pc-screen {
+            &:not(:nth-of-type(3n)) {
+                margin-right: 30px;
+            }
+    
+            &:nth-of-type(n + 4) {
+                margin-top: 30px;
+            }
+        }
+
+        @include tablet-screen {
+            width: calc((100% - 30px) / 2);
+
+            &:nth-of-type(even) {
+                margin-left: 30px;
+            }
+    
+            &:nth-of-type(n + 3) {
+                margin-top: 30px;
+            }
+        }
+
+        @include sp-screen {
+            width: 100%;
+    
+            &:nth-of-type(n + 2) {
+                margin-top: 30px;
+            }
+        }
+
+        .p-card__texts {
+            padding: 30px;
+        }
+
+        .p-card__tag {
+            font-size: 0.75rem;
+            margin-bottom: 20px;
+        }
+
+        .p-card__text {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .p-card__price {
+            font-size: 0.75rem;
+            text-align: right;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.c-button {
+    input {
+        width: 200px;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+        padding: 12px 0;
+
+        @include pc-screen {
+            &:hover {
+                color: black;
+                background-color: white;
+            }
+        }
+
+        @include sp-screen {
+            width: 100%;
+        }
+    }
+}

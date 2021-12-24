@@ -1,0 +1,23 @@
+@mixin pc-screen {
+    @media screen and (min-width: 981px){
+        @content;
+    }
+}
+
+@mixin tablet-screen {
+    @media screen and (min-width: 660px) and (max-width: 980px){
+        @content;
+    }
+}
+
+@mixin sp-screen {
+    @media screen and (max-width: 659px){
+        @content;
+    }
+}
+
+@mixin base_img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}

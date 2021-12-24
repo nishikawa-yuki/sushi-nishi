@@ -1,0 +1,29 @@
+.p-box {
+    &--01 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .p-box__text-area {
+            width: 45%;
+            
+            
+            @include sp-screen {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+
+        .p-box__input-area {
+            width: 45%;
+
+            @include sp-screen {
+                width: 100%;
+            }
+        }
+
+        p:nth-of-type(n + 2) {
+            margin-top: 20px;
+        }
+    }
+}

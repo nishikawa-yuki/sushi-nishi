@@ -1,0 +1,14 @@
+.l-header {
+    width: 100%;
+    padding: 20px 40px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    box-sizing: border-box;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

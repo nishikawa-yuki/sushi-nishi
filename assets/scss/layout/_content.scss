@@ -1,21 +1,9 @@
 .l-content {
     &--01 {
-        padding: 100px 0 60px;
-    }
-
-    &--02 {
-        padding: 50px 0;
-    }
-
-    &--03 {
-        padding: 100px 0 0;
-    }
-
-    &__inner {
-        padding: 0 16px;
-        margin: 30px auto 0;
-        width: 100%;
         max-width: 1240px;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
         box-sizing: border-box;
     }
 }

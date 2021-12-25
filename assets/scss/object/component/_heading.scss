@@ -1,6 +1,13 @@
-.c-heading {
-    width: 175px;
-    height: auto;
+.c-heading__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 100px;
+
+    a {
+        display: block;
+    }
 }
 
 .c-secondly-heading {

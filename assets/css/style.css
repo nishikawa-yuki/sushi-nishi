@@ -313,6 +313,7 @@ img {
   position: fixed;
   z-index: 1;
   background-color: white;
+  border-bottom: 1px solid black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -506,6 +507,24 @@ img {
   .c-button input {
     width: 100%;
   }
+}
+
+#wrapper p {
+  padding: 300px 0;
+  text-align: center;
+}
+
+/*========= waveを描画するエリア設定 ===============*/
+.wave {
+  position: relative;
+  height: 100px;
+}
+
+.wave canvas {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 .p-card--01 {

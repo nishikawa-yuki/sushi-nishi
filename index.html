@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>鮨所 西 | トップ</title>
+    <title>鮨所 西</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
@@ -14,39 +14,19 @@
 </head>
 
 <body>
-    <div class="p-kv js-kv">
-        <div class="p-kv__item">
-            <picture>
-                <source media="" srcset="">
-                <img src="./assets/img/kv01.jpg" alt="">
-            </picture>
-        </div>
-        <div class="p-kv__item">
-            <picture>
-                <source media="" srcset="">
-                <img src="./assets/img/kv02.jpg" alt="">
-            </picture>
-        </div>
-        <div class="p-kv__item">
-            <picture>
-                <source media="" srcset="">
-                <img src="https://placehold.jp/1000x660.png" alt="">
-            </picture>
-        </div>
-    </div>
     <header class="l-header">
         <div class="l-header__inner">
             <h1 class="c-heading__logo">
-                <a href="">
+                <a href="#">
                     <img src="./assets/img/logo.png" alt="鮨所 西">
                 </a>
             </h1>
             <nav>
                 <ul class="c-nav">
-                    <li><a href="">こだわり</a></li>
-                    <li><a href="">お品書き</a></li>
-                    <li><a href="">場所</a></li>
-                    <li><a href="">お知らせ</a></li>
+                    <li><a href="#commitment">こだわり</a></li>
+                    <li><a href="#menu">お品書き</a></li>
+                    <li><a href="#news">お知らせ</a></li>
+                    <li><a href="#place">場所</a></li>
                 </ul>
             </nav>
             <div class="c-nav__btn">
@@ -56,8 +36,112 @@
             </div>
         </div>
     </header>
-    <main class="l-containar">
+    
+    <main>
+        <div class="p-kv__wrap">
+            <div class="p-kv js-kv">
+                <div class="p-kv__item">
+                    <picture>
+                        <source media="" srcset="">
+                        <img src="./assets/img/kv01.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="p-kv__item">
+                    <picture>
+                        <source media="" srcset="">
+                        <img src="./assets/img/kv02.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="p-kv__item">
+                    <picture>
+                        <source media="" srcset="">
+                        <img src="./assets/img/kv03.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
         
+        <div class="c-sns-group__warp">
+            <ul class="c-sns-group">
+                <li class="c-sns-group"><img src="" alt=""></li>
+                <li class="c-sns-group"><img src="" alt=""></li>
+                <li class="c-sns-group"><img src="" alt=""></li>
+            </ul>
+        </div>
+
+        <section class="l-content" id="commitment">
+            <h2 class="c-secondly-heading">こだわり</h2>
+            <div class="l-content__inner"></div>
+        </section>
+
+        <section class="l-content" id="menu">
+            <h2 class="c-secondly-heading">お品書き</h2>
+            <div class="l-content__inner">
+                <ul class="p-menu">
+                    <li class="p-menu__item">
+                        <a href="#">
+                            <div class="p-menu__img">
+                                <img src="./assets/img/menu_img01.jpg" alt="握り寿司（松）">
+                            </div>
+                            <section class="p-menu__text-area">
+                                <h3 class="p-menu__heading">握り寿司（松）</h3>
+                                <p class="p-menu__text">1500円</p>
+                            </section>
+                        </a>
+                    </li>
+                    <li class="p-menu__item">
+                        <a href="#">
+                            <div class="p-menu__img">
+                                <img src="./assets/img/menu_img02.jpg" alt="握り寿司（竹）">
+                            </div>
+                            <section class="p-menu__text-area">
+                                <h3 class="p-menu__heading">握り寿司（竹）</h3>
+                                <p class="p-menu__text">2000円</p>
+                            </section>
+                        </a>
+                    </li>
+                    <li class="p-menu__item">
+                        <a href="#">
+                            <div class="p-menu__img">
+                                <img src="./assets/img/menu_img03.jpg" alt="握り寿司（梅）">
+                            </div>
+                            <section class="p-menu__text-area">
+                                <h3 class="p-menu__heading">握り寿司（梅）</h3>
+                                <p class="p-menu__text">3000円</p>
+                            </section>
+                        </a>
+                    </li>
+                    <li class="p-menu__item">
+                        <a href="#">
+                            <div class="p-menu__img">
+                                <img src="./assets/img/menu_img04.jpg" alt="ちらし寿司">
+                            </div>
+                            <section class="p-menu__text-area">
+                                <h3 class="p-menu__heading">ちらし寿司</h3>
+                                <p class="p-menu__text">1000円</p>
+                            </section>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="l-content" id="news">
+            <h2 class="c-secondly-heading">お知らせ</h2>
+            <div class="l-content__inner">
+                <dl class="c-news">
+                    <dt>2021年12月31日</dt><dd>今年もありがとうございました！良いお年をお過ごしください！</dd>
+                    <dt>2021年10月1日</dt><dd>冬物の入荷始めました！おすすめはブリ・マダイ・ボラです！</dd>
+                    <dt>2021年6月15日</dt><dd>店内リニューアル致しました。</dd>
+                </dl>
+            </div>
+        </section>
+
+        <section class="l-content" id="place">
+            <h2 class="c-secondly-heading">場所</h2>
+            <div class="l-content__inner"></div>
+        </section>
+
     </main>
     <footer>
         <p>&copy; 鮨所 西</p>

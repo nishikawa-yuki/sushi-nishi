@@ -8,7 +8,7 @@ $(function() {
     })
     
   $('.js-kv').slick({
-    speed: 500,
+    speed: 1000,
     autoplaySpeed: 3000,
     autoplay: true,
     arrows: false,

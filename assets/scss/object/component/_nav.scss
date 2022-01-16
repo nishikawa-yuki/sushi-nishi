@@ -1,22 +1,14 @@
 .c-nav {
-    height: 120px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin: 25px 0;
 
     li {
         a {
             font-size: 1.2rem;
             font-family: $base_font_family;
         }
-    }
-
-    li:nth-of-type(n +2) {
-        padding-left: 15%;
-    }
-
-    li:nth-of-type(3) {
-        padding-left: 30%;
     }
 }
 

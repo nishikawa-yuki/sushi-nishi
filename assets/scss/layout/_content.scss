@@ -1,9 +1,11 @@
 .l-content {
-    &--01 {
-        max-width: 1240px;
-        width: 100%;
-        padding: 0 20px;
-        margin: 0 auto;
-        box-sizing: border-box;
+    max-width: 1240px;
+    width: 100%;
+    margin: 50px auto 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+    
+    &__inner {
+        margin-top: 25px;
     }
 }

@@ -310,16 +310,11 @@ img {
 
 .l-header {
   width: 100%;
-  position: fixed;
-  z-index: 1;
-  background-color: white;
-  border-bottom: 1px solid black;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.l-header__inner {
-  position: relative;
 }
 
 .l-footer {
@@ -344,29 +339,20 @@ img {
 }
 
 .c-nav {
-  height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 25px 0;
 }
 
 .c-nav li a {
   font-size: 1.2rem;
   font-family: "Yuji Syuku", serif;
-}
-
-.c-nav li:nth-of-type(n +2) {
-  padding-left: 15%;
-}
-
-.c-nav li:nth-of-type(3) {
-  padding-left: 30%;
 }
 
 .js-open .c-nav {
@@ -465,12 +451,8 @@ img {
 }
 
 .c-heading__logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
   width: 100px;
+  margin: 50px auto 0;
 }
 
 .c-heading__logo a {
@@ -507,24 +489,6 @@ img {
   .c-button input {
     width: 100%;
   }
-}
-
-#wrapper p {
-  padding: 300px 0;
-  text-align: center;
-}
-
-/*========= waveを描画するエリア設定 ===============*/
-.wave {
-  position: relative;
-  height: 100px;
-}
-
-.wave canvas {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 0;
 }
 
 .p-card--01 {
@@ -632,6 +596,13 @@ img {
           box-sizing: border-box;
   background-color: white;
   padding: 20px;
+}
+
+.p-kv__wrap {
+  width: 1240px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .u-bg {

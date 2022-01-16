@@ -1,0 +1,38 @@
+.p-menu {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        width: calc((100% - 60px) / 3);
+        
+        a {
+            display: block;
+        }
+    }
+
+    &__item:not(:nth-of-type(3n)) {
+        margin-right: 30px;
+    }
+
+    &__item:nth-of-type(n + 4) {
+        margin-top: 30px;
+    }
+
+    &__img {
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    
+    &__text-area {
+        margin-top: 25px;
+    }
+
+    &__heading {
+        font-size: 1.8rem;
+    }
+
+    &__text {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}

@@ -492,6 +492,22 @@ img {
   }
 }
 
+.c-news dt {
+  float: left;
+  font-size: 1rem;
+}
+
+.c-news dd {
+  margin-left: 50px;
+  font-size: 1rem;
+}
+
+.c-news__wrap {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 .p-card--01 {
   width: calc((100% - 60px) / 3);
   -webkit-box-shadow: 0 0 8px 4px #ccc;

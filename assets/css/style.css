@@ -650,11 +650,19 @@ img {
   margin-top: 10px;
 }
 
-.u-bg {
-  background-color: black;
-}
-
 .u-text-accent--01 {
   color: white;
+}
+
+.u-text--left {
+  text-align: left;
+}
+
+.u-text--center {
+  text-align: center;
+}
+
+.u-text--right {
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */

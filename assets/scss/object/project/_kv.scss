@@ -1,8 +1,9 @@
 .p-kv {
     &__wrap {
-        width: 1240px;
+        max-width: 1200px;
+        width: 100%;
+        padding: 0 20px;
         margin: 0 auto;
-        border-radius: 8px;
-        overflow: hidden;
+        box-sizing: border-box;
     }
 }
